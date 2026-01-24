@@ -96,7 +96,6 @@ func init() {
 	rootCmd.AddCommand(layoutCmd)
 	rootCmd.AddCommand(cameraCmd)
 	rootCmd.AddCommand(trafficCmd)
-	rootCmd.AddCommand(audioCmd)
 	rootCmd.AddCommand(workflowCmd)
 	rootCmd.AddCommand(sensorCmd)
 	rootCmd.AddCommand(configCmd)

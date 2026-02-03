@@ -1,0 +1,1 @@
+{"version":3,"file":"CameraPanel.d.ts","sourceRoot":"","sources":["../../../src/tui/components/CameraPanel.tsx"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,WAAW,EAAE,MAAM,gBAAgB,CAAC;AAElD,UAAU,KAAK;IACb,MAAM,EAAE,WAAW,EAAE,CAAC;CACvB;AAED,wBAAgB,WAAW,CAAC,EAAE,MAAM,EAAE,EAAE,KAAK,2CAmD5C"}

@@ -25,11 +25,8 @@ wt sensor list
 # Send sensor data
 wt sensor send my-sensor-id --status online --activity fast
 
-# List camera states
-wt camera list
-
-# Set camera mode
-wt camera set my-layout --mode flyover --speed 3.0
+# List layouts
+wt layout list
 
 # List traffic states
 wt traffic list
@@ -61,8 +58,7 @@ wt tui
 | `wt logout` | Clear saved token |
 | `wt sensor send <id>` | Send sensor data |
 | `wt sensor list` | List sensor states |
-| `wt camera set <layoutId>` | Set camera mode |
-| `wt camera list` | List camera states |
+| `wt layout list` | List layouts with building counts |
 | `wt traffic set <layoutId>` | Update traffic settings |
 | `wt traffic list` | List traffic states |
 | `wt popup labels <layoutId>` | Toggle building labels |

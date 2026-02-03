@@ -37,6 +37,18 @@ wt traffic list
 # Update traffic
 wt traffic set my-layout --density 75 --speed fast --enabled
 
+# Toggle building labels
+wt popup labels my-layout --on
+
+# View building metadata
+wt popup get building-uuid
+
+# Set building metadata
+wt popup set building-uuid --description "Web server" --tags "web,prod"
+
+# List buildings with metadata
+wt popup list my-layout
+
 # Launch interactive TUI
 wt tui
 ```
@@ -53,6 +65,10 @@ wt tui
 | `wt camera list` | List camera states |
 | `wt traffic set <layoutId>` | Update traffic settings |
 | `wt traffic list` | List traffic states |
+| `wt popup labels <layoutId>` | Toggle building labels |
+| `wt popup set <buildingId>` | Set description/tags/notes |
+| `wt popup get <buildingId>` | View building metadata |
+| `wt popup list <layoutId>` | List buildings with metadata |
 | `wt tui` | Launch interactive dashboard |
 
 ## Token Requirements

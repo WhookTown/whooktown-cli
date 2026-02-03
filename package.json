@@ -18,7 +18,7 @@
     "prepublishOnly": "npm run clean && npm run build"
   },
   "dependencies": {
-    "@whooktown/sdk": "file:../../sdk/whooktown-typescript-sdk",
+    "@whooktown/sdk": "^1.0.0",
     "commander": "^12.0.0",
     "ink": "^5.0.1",
     "ink-spinner": "^5.0.0",

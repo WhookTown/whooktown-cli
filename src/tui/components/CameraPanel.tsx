@@ -52,7 +52,7 @@ export function CameraPanel({ states }: Props) {
       {/* Hint */}
       <Box marginTop={1}>
         <Text color="gray" dimColor>
-          Use "wt camera set &lt;layoutId&gt; --mode &lt;mode&gt;" to change camera mode
+          Camera is read-only in CLI. Use the web app or SDK for camera control.
         </Text>
       </Box>
     </Box>

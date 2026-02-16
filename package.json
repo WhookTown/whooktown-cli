@@ -1,6 +1,6 @@
 {
   "name": "@whooktown/cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI for Whooktown - 3D IT Infrastructure Visualization",
   "type": "module",
   "bin": {
